@@ -1,3 +1,10 @@
-//my commented answer
-// Parameters are visable listed as a part of the function.
-// Arguments are valuse passed to the function.
+const isPalindrome = (word) => {
+if (word.toLowerCase() == word.toLowerCase().split('').reverse().join('')) {
+    return true;
+
+}
+ else if(word.toLowerCase() !== word.toLowerCase().split('').reverse().join('')) {
+    return false;
+ }
+};
+isPalindrome('Radar');
