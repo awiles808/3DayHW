@@ -8,3 +8,11 @@ if (word.toLowerCase() == word.toLowerCase().split('').reverse().join('')) {
  }
 };
 isPalindrome('Radar');
+
+const sumDigits = (num) => {
+ var output =[];
+ var sNumber = num.toString().split('');
+ console.log(sNumber);
+}
+
+sumDigits(42);
